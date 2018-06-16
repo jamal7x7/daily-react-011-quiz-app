@@ -1,13 +1,14 @@
-daily-react-011-quiz-app
+##daily-react-011-quiz-app
 
-Challenge: create a QCM Quiz app.
+> Challenge: create a QCM Quiz app.
 
-My ongoing submission:
+My ongoing submission: https://github.com/jamal7x7/daily-react-011-quiz-app
 
 #100DaysOfReact #100DaysOfCode #dailyReact #javascript #react #reactjs #UIDesign #UIUX #UIUXDesign
 
 status:
-_[x] UI/UX design
-_[ ] CSS
-_[ ] Coding
-_[ ] refinement \*[ ] finished
+[x] UI/UX design
+[ ] CSS
+[ ] Coding
+[ ] refinement
+[ ] finished
