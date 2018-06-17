@@ -8,7 +8,7 @@ My ongoing submission: https://github.com/jamal7x7/daily-react-011-quiz-app
 
 status:
 
-- [ ] UI/UX design
+- [x] UI/UX design
 - [ ] CSS
 - [ ] Coding
 - [ ] Refinement
