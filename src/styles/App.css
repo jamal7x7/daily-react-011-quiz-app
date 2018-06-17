@@ -87,20 +87,45 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 230px 230px;
-  grid-template-areas: ' a b ' ' c d ';
+}
+
+.quiz .options .timer {
+  grid-column: 1/3;
+  grid-row: 1/3;
+  justify-self: center;
+  align-self: center;
+  width: 150px;
+  height: 150px;
+  background: #041A3E;
+  border: 4px solid #062659;
+  box-shadow: 0 30px 100px -20px rgba(0, 0, 0, 0.4);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 5px;
 }
 
 .quiz .options .a {
+  grid-column: 1/2;
+  grid-row: 1/2;
   display: grid;
   grid-template-columns: 90px 1fr;
   grid-template-rows: auto;
   grid-template-areas: ' a-txt a-opt ';
   background: #062659;
   border: 2px solid #041A3E;
+  background-image: linear-gradient(225deg, #DD8EDA -5%, #42A3F9, #42A3F9, #062659, #062659);
+  background-size: auto 900%;
+  background-position: 0 100%;
+  transition: background-position 0.25s ease;
+  cursor: pointer;
 }
 
 .quiz .options .a:hover {
-  background-image: linear-gradient(225deg, #DD8EDA -30%, #42A3F9 100%);
+  background-position: 0 0;
 }
 
 .quiz .options .a .a-txt {
@@ -123,16 +148,23 @@ body {
 }
 
 .quiz .options .b {
+  grid-column: 2/3;
+  grid-row: 1/2;
   display: grid;
   grid-template-columns: 1fr 90px;
   grid-template-rows: auto;
   grid-template-areas: ' a-opt a-txt ';
   background: #062659;
   border: 2px solid #041A3E;
+  background-image: linear-gradient(225deg, #DD8EDA -5%, #42A3F9, #42A3F9, #062659, #062659);
+  background-size: auto 900%;
+  background-position: 0 100%;
+  transition: background-position 0.25s ease;
+  cursor: pointer;
 }
 
 .quiz .options .b:hover {
-  background-image: linear-gradient(225deg, #DD8EDA -30%, #42A3F9 100%);
+  background-position: 0 0;
 }
 
 .quiz .options .b .b-txt {
@@ -155,16 +187,23 @@ body {
 }
 
 .quiz .options .c {
+  grid-column: 1/2;
+  grid-row: 2/3;
   display: grid;
   grid-template-columns: 90px 1fr;
   grid-template-rows: auto;
   grid-template-areas: ' a-txt a-opt ';
   background: #062659;
   border: 2px solid #041A3E;
+  background-image: linear-gradient(225deg, #DD8EDA -5%, #42A3F9, #42A3F9, #062659, #062659);
+  background-size: auto 900%;
+  background-position: 0 100%;
+  transition: background-position 0.25s ease;
+  cursor: pointer;
 }
 
 .quiz .options .c:hover {
-  background-image: linear-gradient(225deg, #DD8EDA -30%, #42A3F9 100%);
+  background-position: 0 0;
 }
 
 .quiz .options .c .c-txt {
@@ -187,16 +226,23 @@ body {
 }
 
 .quiz .options .d {
+  grid-column: 2/2;
+  grid-row: 2/2;
   display: grid;
   grid-template-columns: 1fr 90px;
   grid-template-rows: auto;
   grid-template-areas: ' a-opt a-txt ';
   background: #062659;
   border: 2px solid #041A3E;
+  background-image: linear-gradient(225deg, #DD8EDA -5%, #42A3F9, #42A3F9, #062659, #062659);
+  background-size: auto 900%;
+  background-position: 0 100%;
+  transition: background-position 0.25s ease;
+  cursor: pointer;
 }
 
 .quiz .options .d:hover {
-  background-image: linear-gradient(225deg, #DD8EDA -30%, #42A3F9 100%);
+  background-position: 0 0;
 }
 
 .quiz .options .d .d-txt {

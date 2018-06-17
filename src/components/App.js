@@ -9,7 +9,7 @@ const Header = () => (
 
 const Timer = () => (
   <div className='timer'>
-    Timer
+    21:45
   </div>
 )
 
@@ -44,6 +44,7 @@ const Options = () => (
     <B />
     <C />
     <D />
+    <Timer />
   </div>
 )
 
